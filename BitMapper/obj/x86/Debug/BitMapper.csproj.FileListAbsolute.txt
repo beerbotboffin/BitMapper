@@ -1,0 +1,13 @@
+c:\users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\bin\Debug\BitMapper.exe
+c:\users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\bin\Debug\BitMapper.pdb
+c:\users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\obj\x86\Debug\BitMapper.Properties.Resources.resources
+c:\users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\obj\x86\Debug\BitMapper.csproj.GenerateResource.Cache
+c:\users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\obj\x86\Debug\BitMapper.exe
+c:\users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\obj\x86\Debug\BitMapper.pdb
+c:\users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\obj\x86\Debug\BitMapper.frmBitMapper.resources
+C:\Users\shane\Documents\Visual Studio 2010\Projects\BitMapper\BitMapper\obj\x86\Debug\BitMapper.csprojResolveAssemblyReference.cache
+C:\Users\shane\Documents\Visual Studio 2010\Projects\BitMapper\BitMapper\obj\x86\Debug\BitMapper.BitMapperAboutBox.resources
+C:\Users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\bin\Debug\BitMapper.exe.manifest
+C:\Users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\bin\Debug\BitMapper.application
+C:\Users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\obj\x86\Debug\BitMapper.exe.manifest
+C:\Users\shane\documents\visual studio 2010\Projects\BitMapper\BitMapper\obj\x86\Debug\BitMapper.application
