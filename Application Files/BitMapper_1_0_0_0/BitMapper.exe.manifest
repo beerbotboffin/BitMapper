@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BitMapper.exe" version="1.0.0.0" publicKeyToken="31cbd56375d315df" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="1417341666_296561.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BitMapper" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="BitMapper.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BitMapper.exe" size="244736">
+      <assemblyIdentity name="BitMapper" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>cSdVdSF4j/j6WZoJl604RY7zCP0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1417341666_296561.ico" size="102286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vapYooTLSvelMd+wvp8e3MMMgGU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=shane-PC\shane" issuerKeyHash="fa8b1353c04e899f7a919457c3a50410c0ca889a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Ln2AimhGHzlatTn4kBRwTW/0rMA=</DigestValue></Reference></SignedInfo><SignatureValue>a/aABYMd1O9kwvD5XTWyI6tS7CYkO1OFWJOwohZIePwdEpmeosGyqleAqr3Ied4KpaST7nj1S6lcrkFdrSEsAxv/dBKFKCvVeJ+F0vVTX/iJxzrlYKBipEz4br13tAr85y+4BT4jZOUPzbwukFb6kKEDw92R/UCIgapDiyMhMbs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uLL96K2bgJwg4pYzFfa9nAb/i7xUABc5ZSIa1rJoPhEr9CpvdFe4jLa4rLW+EivDpM9XxL/4+wH1day8bYVILXTlOpvjrMdfaWNi4nvmVe/3ZDIihh2FKTP9pnWvurwrqUNhY2VWjmlzZYPU6+b+hOWwnE6ho487ouriEmH/68M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c0acf46f4d701490f839b55a391f46688a807d2e" Description="" Url=""><as:assemblyIdentity name="BitMapper.exe" version="1.0.0.0" publicKeyToken="31cbd56375d315df" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=shane-PC\shane</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+vi+U7RKVmUS631gtUEDafuahOo=</DigestValue></Reference></SignedInfo><SignatureValue>WIPzeRvvLHkVwc9l8DdV1dqDB4bGj0l8Y5dpNrQKtzLGw4XYOopqgA+FDHqMA6F5dfSUzu1riKi3tVw/UcWSsozcWrbLU2nsrIBChyI2G+xUdq+HVw1V7HLcgtMYfmEvUVyLVTBZmPRWWYSrC2DS/8vATwKL88pkZ7fpgpEkH9M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uLL96K2bgJwg4pYzFfa9nAb/i7xUABc5ZSIa1rJoPhEr9CpvdFe4jLa4rLW+EivDpM9XxL/4+wH1day8bYVILXTlOpvjrMdfaWNi4nvmVe/3ZDIihh2FKTP9pnWvurwrqUNhY2VWjmlzZYPU6+b+hOWwnE6ho487ouriEmH/68M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQLSvURtESArRLqyW2EHWH/jANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAcwBoAGEAbgBlAC0AUABDAFwAcwBoAGEAbgBlMB4XDTE0MTEzMDIyNTIyMFoXDTE1MTIwMTA0NTIyMFowJzElMCMGA1UEAx4cAHMAaABhAG4AZQAtAFAAQwBcAHMAaABhAG4AZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuLL96K2bgJwg4pYzFfa9nAb/i7xUABc5ZSIa1rJoPhEr9CpvdFe4jLa4rLW+EivDpM9XxL/4+wH1day8bYVILXTlOpvjrMdfaWNi4nvmVe/3ZDIihh2FKTP9pnWvurwrqUNhY2VWjmlzZYPU6+b+hOWwnE6ho487ouriEmH/68MCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAKTrQZQNY8SLI2mJJv7YlbVglMCN6uzUSFP3QbznDj8LCFh5cAWtHzvQ9wyEu+QuMUoSMZout5rVtWQX7c24KFzf0j4CgcVomQxaIJBvzcoqHG9D1OXosP4OUcpAKPvuwA9doNxn7UXoyiYzyCmZWPTTb8nucH7XfMG0fQMfYmmw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
